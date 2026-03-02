@@ -1,6 +1,6 @@
 # Funktion kutsuminen
-lyhenna_label(!USERLABEL!)
+lyhenna_label(!USERLABEL!) # Sekä userlabel että päivitettävä on oltava string-muotoisia
 
 # Funktion määrittäminen
 def lyhenna_label(haettava):
-    return haettava[4:]
+    return haettava[4:] # Numero 4 kertoo montako merkkiä alusta skipataan
