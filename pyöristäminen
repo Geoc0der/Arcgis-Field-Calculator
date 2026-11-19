@@ -1,0 +1,2 @@
+# Tekee simppelin laskutoimituksen ja palauttaa sen yhden desimaalin tarkkuudella
+round(!geom_Area!/10000,1)
